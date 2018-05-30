@@ -16,6 +16,7 @@
     "webpack-dev-server": "^2.11.1"
   },
   "scripts": {
+    "test": "jest",
     "start": "webpack-dev-server --config webpack.config.dev.js",
     "build:staging": "webpack --config webpack.config.staging.js",
     "build:prod": "webpack --config webpack.config.prod.js"
@@ -23,8 +24,9 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
+    "babel-jest": "^23.0.1",
     "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "css-loader": "^0.28.9",
     "eslint": "^4.17.0",
@@ -33,6 +35,8 @@
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-react": "^7.7.0",
     "file-loader": "^1.1.11",
+    "jest": "^23.0.1",
+    "react-test-renderer": "^16.4.0",
     "style-loader": "^0.20.1"
   }
 }
